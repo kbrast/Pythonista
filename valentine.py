@@ -3,6 +3,9 @@
 # Importing turtle library to draw "I Love You"
 import turtle
 
+# Set title of turtle window
+turtle.title("Be My Valentine!")
+
 # Creating our turtle cursor to draw
 my_turtle_cursor = turtle.Turtle()
 
@@ -59,6 +62,7 @@ def write_you_inside_heart():
 
 # Method to draw a heart
 def draw_complete_heart():
+    
     # Set the fill color to #FF0000
     my_turtle_cursor.fillcolor("#FF0000")
 
