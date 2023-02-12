@@ -22,4 +22,3 @@ for name_of_file in list_of_files:
     path_of_file = os.path.join(name_of_dir, name_of_file)
     size_of_file  = os.stat(path_of_file).st_size 
     print(size_of_file, 'bytes ', name_of_file)
-    #print("{:40s} {:d} bytes".format(item,cwdDict[item].st_size))
