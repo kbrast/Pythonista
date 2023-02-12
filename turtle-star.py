@@ -3,7 +3,7 @@
 
 from turtle import *
 title("You are the star!")
-color('red', 'yellow')
+color('red', 'orange')
 begin_fill()
 while True:
     forward(200)
