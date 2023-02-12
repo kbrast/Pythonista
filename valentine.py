@@ -24,7 +24,7 @@ def write_I_inside_heart():
     my_turtle_cursor.penup()
 
     # Co-ordinates where we have to write "I"
-    my_turtle_cursor.goto(-230, 15)
+    my_turtle_cursor.goto(-190, 15)
 
     # Setting the text color of our text
     my_turtle_cursor.pencolor("#FFFFFF")
@@ -38,7 +38,7 @@ def write_Love_inside_heart():
     my_turtle_cursor.penup()
 
     # Co-ordinates where we have to write "Love"
-    my_turtle_cursor.goto(-160, 15)
+    my_turtle_cursor.goto(-100, 15)
 
     # Setting the text color of our text
     my_turtle_cursor.pencolor("#FFFFFF")
