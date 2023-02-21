@@ -1,4 +1,5 @@
 # Scan a DynamoDB table
+# Use optional Filter Expression parameter to refine search
 
 import boto3
 
