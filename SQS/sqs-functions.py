@@ -1,4 +1,4 @@
-# SQS functions create and get queue
+# SQS functions to create and get queue url
 
 import boto3
 
@@ -21,6 +21,6 @@ def get_queue_url(sqs, QueueName):
     
 if __name__ == "__main__":
     sqs = boto3.client('sqs')
-    QueueName = "Lambda-queue"
+    QueueName = "RedLambdaQueue"
     create_queue(sqs, QueueName)
     get_queue_url(sqs, QueueName)
